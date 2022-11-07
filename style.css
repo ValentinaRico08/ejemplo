@@ -1,0 +1,64 @@
+body{
+   background-color: black;
+    color: white;
+    
+        
+}
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap:10px;
+    padding: 0%; 
+    width: 33.3%;
+    
+} 
+section {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 70px;
+}
+h3 {
+     text-align: left;
+     background-color: blueviolet;
+     width: fit-content;
+}
+.dayfmn{
+    grid-column-start: 4;
+}
+.dayaj {
+    grid-column-start: 7;
+}
+.dayma{
+    grid-column-start: 2;
+}.dayju{
+    grid-column-start: 5;
+}
+.dayag{
+    grid-column-start: 3;
+}
+.daysd{
+    grid-column-start: 6;
+}
+
+li{
+    text-align: right;
+    
+}
+h3{
+   font-size: 25px;
+}
+.days {
+    font-weight: bold;
+}
+li:hover {
+    background-color: blueviolet;
+    transform: scale(1.3);
+}
